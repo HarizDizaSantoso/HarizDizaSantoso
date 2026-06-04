@@ -22,11 +22,9 @@
       .name-group  { opacity: 0; animation: fadeUp 0.7s 0.55s ease both; }
       .meta-group  { opacity: 0; animation: fadeUp 0.5s 0.75s ease both; }
       .tag-group   { opacity: 0; animation: fadeUp 0.5s 0.90s ease both; }
+      .code-group  { opacity: 0; animation: fadeIn 0.5s 1.0s  ease both; }
       @keyframes fadeUp { from { opacity:0; transform:translateY(10px); } to { opacity:1; transform:translateY(0); } }
       @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-
-      .cursor { animation: blink 1.2s step-end infinite; }
-      @keyframes blink { 0%,100%{ opacity:1; } 50%{ opacity:0; } }
 
       .dot-pulse { animation: pulse 2s 1.8s ease-in-out infinite; transform-origin: 70px 32px; }
       @keyframes pulse { 0%,100%{ opacity:1; transform:scale(1); } 50%{ opacity:.3; transform:scale(.6); } }
@@ -61,13 +59,11 @@
     <text x="82" y="36.5" class="badge-text">AVAILABLE FOR WORK</text>
   </g>
 
-  <!-- NAME + CURSOR -->
+  <!-- NAME — no cursor -->
   <g class="name-group">
     <text x="52" y="124">
       <tspan class="name">Hariz Diza </tspan><tspan class="name name-accent">Santoso</tspan>
     </text>
-    <!-- cursor x = 52 + ~446 estimated, add 8px gap = 506. Padded to be safe after "o" -->
-    <rect class="cursor" x="506" y="86" width="3" height="44" rx="1" fill="#D97706"/>
   </g>
 
   <!-- META -->
@@ -85,7 +81,7 @@
     <text x="68" y="182" class="tagline">Building things for the web</text>
   </g>
 
-  <!-- CODE BLOCK with staggered fade-in per line -->
+  <!-- CODE BLOCK -->
   <text x="604" y="88"  class="code ln1"><tspan class="kw">const</tspan><tspan class="pl"> dev</tspan><tspan class="br"> = {</tspan></text>
   <text x="604" y="114" class="code ln2"><tspan class="br">  </tspan><tspan class="fn">name</tspan><tspan class="br">: </tspan><tspan class="st">"Hariz"</tspan><tspan class="br">,</tspan></text>
   <text x="604" y="140" class="code ln3"><tspan class="br">  </tspan><tspan class="fn">stack</tspan><tspan class="br">: </tspan><tspan class="st">"FullStack JS"</tspan><tspan class="br">,</tspan></text>
