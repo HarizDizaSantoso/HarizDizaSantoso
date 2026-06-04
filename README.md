@@ -26,7 +26,7 @@ Welcome to my cozy little room. I’m a junior full-stack JavaScript developer. 
 
 ## 🤝 Let's Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect_with_me-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/hariz-diza-santoso)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect_with_me-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hariz-diza-santoso)
 [![Portfolio](https://img.shields.io/badge/Portfolio-See_my_work-D97706?style=for-the-badge&logo=firefox&logoColor=white)](https://YOUR_PORTFOLIO.com)
 [![Email](https://img.shields.io/badge/Email-Send_a_message-0F766E?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hariz.hds@gmail.com)
 
